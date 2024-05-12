@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family:"titillium";
+
+    background-color:#252525;
+}
+
+.pc{
+background-color: #111;
+    /* margin-top: 200px; */
+    height: 250px;
+    border-top:#44D62C 1px solid;
+
+}
+
+
+.one {
+    /* border:#44D62C 1px solid; */
+
+}
+.two {
+    border:#44D62C 1px solid;
+
+}
+.para{
+    color: #999;
+    font-family: 'Roboto';
+    font-size: 1.125rem;
+    font-weight: 300;
+    text-align:center;
+    padding-left: 150px;
+    padding-right: 150px;
+    margin: 30px;
+
+}
+.head{
+    color: #44D62C;
+    text-align: center;
+    margin: 40px;
+    font-size: 2.25rem;
+    line-height: 46px;
+    font-weight: 300;
+    font-family:myFirstFont;
+
+
+}
+.head2{
+    font-size: 130%;
+    color: rgba(255, 255, 255, 0.829);
+    font-family:myFirstFont;
+
+
+}
+.para2{
+    font-size: 100%;
+    color: rgba(255, 255, 255, 0.521);
+    font-family: 'Roboto';
+
+    
+
+}
+a{
+    color: #44D62C;
+    font-family: 'Roboto';
+    
+
+}
+.container{
+    padding-left: 50px;
+}
+
+.box{
+    width: 400px;
+    float: left;
+    margin: 10px ;
+}
+
+.slide-img{
+    height: 400px;
+    position: relative;
+    overflow:hidden; 
+    
+}
+
+.slide-img #mouse{
+    transition: 0.6s ease-in-out;
+}
+.slide-img:hover #mouse{
+    transform: scale(1.1);
+}
+
+.slide-img #mouse{
+    width: 100%;
+
+    height: 100%;
+    object-fit: cover;
+    box-sizing: border-box;
+}
+
+.detail-box{
+    width: 100%;
+    justify-content: space-between;
+    border-bottom: #44D62C 2px solid;
+    padding: 0px 4px;
+    padding-bottom: 20px;
+    background-color: #111111;
+
+    box-sizing: border-box;
+}
+.type{
+    padding-left:10px;
+    padding-top:10px;
+}
+@font-face {
+    font-family: myFirstFont;
+    src: url(razerf5-thin.otf);  
+}
+.parent{
+    background-color: #1a1a1a ;
+    padding-bottom:20px;
+    padding-top:10px;
+    height: 100px;
+
+}
+.navbar-sub-menu {
+    background-color: #1a1a1a;
+    /* border: 1px solid #44D62C; */
+
+}
+.a1:hover{
+    color:  #44D62C;
+}
+li{
+    margin: 20px;
+    overflow: hidden;
+    display:inline-block;
+}  
+.a1{
+    font-weight:lighter;
+    font-family: 'Roboto';
+    padding-top: 5px;
+    font-size: 12px;
+    text-decoration: none;
+    color: white;
+} 
+.a1{
+    text-decoration: none;
+}
+#bar {
+    animation-timing-function:ease-in 1s;
+    animation:NAME-YOUR-ANIMATION 2s ease-in;
+    
+}
+@keyframes NAME-YOUR-ANIMATION {
+  0%   { opacity: 0; }
+  100% { opacity: 1; }
+}
